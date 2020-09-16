@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+    color: #ffffff;
+    font-size: 14pt;
+    font-family: sans-serif;
+}
+
+hr {
+    margin: 16px 0px 16px 0px;
+}
+
+/* Main */
+.main {
+    margin: 16px;
+}
+
+/* Footer */
+.footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #555555;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-size: 10pt;
+    text-align: center;
+    color: #888888;
+}
+
+/* Rofl box */
+.roflbox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 10pt;
+}
+
+.roflbox img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+/* Navigation menu */
+.navmenu {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+  
+/* Navigation menu links */
+.navmenu #links {
+    display: none;
+    padding: 0px 48px 10px 48px;
+    margin-top: 10px;
+}
+
+.navmenu a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #555555;
+}
+
+.navmenu a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.navmenu a:hover {
+    border-top-color: #555555;
+    color: #747474;
+}
+
+/* Navigation menu logo */
+.navmenu .logo {
+    display: inline-block;
+    padding: 8px 8px;
+    height: 32px;
+    width: 32px;
+}
+
+.navmenu .logo a {
+    padding: 0px 0px;
+    height: 32px;
+    width: 32px;
+}
+
+.navmenu .logo a img {
+    padding: 0px 0px;
+    height: 32px;
+    width: 32px;
+}
+
+/* Navigation menu button */
+.navmenu button {
+    color: white;
+    background-color: #00000000;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.navmenu button.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.navmenu button:hover {
+    background-color: #00000000;
+}
+
+/* Code block */
+.code-block {
+    background-color: #ffffff;
+    
+}

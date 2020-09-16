@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="shortcut icon" href="../src/favicon_dark_32.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Elnafo</title>
+</head>
+<body>
+    <div class="navmenu">
+        <div class="logo">
+            <a href="../">
+                <img src="../src/favicon_light_32.ico">
+            </a>
+        </div>
+    
+        <div id="links">
+            <a href="../">Home</a>
+            <a href="../test/">Test</a>
+        </div>
+    
+        <button type="button" onclick="navmenu_links()">
+            <i class="fa fa-bars"></i>
+        </button>
+    
+        <script src="../js/navmenu.js"></script>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+    <div class="main">
+        <h1>Test!</h1>
+        <hr><br>
+        <div class="code-block">
+            <pre class="prettyprint lang-js">function navmenu_links() {
+    var x = document.getElementById("links");
+        
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+} </pre>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2019 L.Nafaryus
+    </div>
+</body>
+</html>
